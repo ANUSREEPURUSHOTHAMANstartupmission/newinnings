@@ -499,7 +499,7 @@ section.feature_area {
     background-position: center bottom;
 }
 .feature_area.boxed {
-    margin: 20px 20px 0px 20px;
+    margin: 30px 20px 0px 20px;
 }
 .feature_item {
     background: url(../images/home_one/feature_shape.png);
@@ -5223,7 +5223,7 @@ section.testimonial_area.style_four {
 
 section.blog_area.style_four {
     background: #F0F2FF;
-    padding: 85px 0 157px;
+    padding: 30px 0 157px;
     z-index: 1;
 }
 section.blog_area.style_four .meta-blog p span {

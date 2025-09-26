@@ -1,0 +1,98 @@
+---
+const { title } = Astro.props;
+
+import Navbar from "../components/Navbar.astro";
+import Navbarbottom from "../components/Navbar.svelte";
+
+
+const description = "Kerala Startup Mission is the central agency of the Government of Kerala for entrepreneurship development and incubation activities in Kerala, India.";
+const url = "https://startupmission.kerala.gov.in/";
+
+---
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>New Innings</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="56x56" href="favicon.png">
+	<!-- bootstrap CSS -->
+	<link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css" media="all">
+	<!-- carousel CSS -->
+	<link rel="stylesheet" href="/assets/css/owl.carousel.min.css" type="text/css" media="all">
+	<!-- animate CSS -->
+	<link rel="stylesheet" href="/assets/css/animate.css" type="text/css" media="all">
+	<!-- animated-text CSS -->
+	<link rel="stylesheet" href="/assets/css/animated-text.css" type="text/css" media="all">
+	<!-- font-awesome CSS -->
+	<link rel="stylesheet" href="/assets/css/all.min.css" type="text/css" media="all">
+	<!-- theme-default CSS -->
+	<link rel="stylesheet" href="/assets/css/theme-default.css" type="text/css" media="all">
+	<!-- meanmenu CSS -->
+	<link rel="stylesheet" href="/assets/css/meanmenu.min.css" type="text/css" media="all">
+	<!-- transitions CSS -->
+	<link rel="stylesheet" href="/assets/css/owl.transitions.css" type="text/css" media="all">
+	<!-- venobox CSS -->
+	<link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all">
+	<!-- flaticon -->
+	<link rel="stylesheet" href="/assets/css/bootstrap-icons.css" type="text/css" media="all">
+	<!-- bootstrap icons -->
+	<link rel="stylesheet" href="/assets/css/flaticon.css" type="text/css" media="all">
+	<!-- Main Style CSS -->
+	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="all">
+	<!--  Darkt Lite CSS -->
+	<link rel="stylesheet" href="/assets/css/dark-lite.css" type="text/css" media="all">
+	<!-- responsive CSS -->
+	<link rel="stylesheet" href="/assets/css/responsive.css" type="text/css" media="all">
+	<!-- Coustom Animation CSS -->
+	<link rel="stylesheet" href="/assets/css/coustom-animation.css" type="text/css" media="all">
+	<!-- odometer CSS -->	
+	<link rel="stylesheet" href="/assets/css/odometer-theme-default.css" type="text/css" media="all">	
+	<link rel="stylesheet" href="/assets/css/scroll-up.css" type="text/css" media="all">	
+	<!-- modernizr js -->
+	<script src="/assets/js/vendor/modernizr-3.5.0.min.js" is:inline></script>
+</head>
+
+<body>
+
+		<slot />
+
+ 
+<!-- jquery js -->
+	<script src="/assets/js/vendor/jquery-3.6.2.min.js" is:inline></script>
+	<script src="/assets/js/popper.min.js" is:inline></script>
+	<!-- bootstrap js -->
+	<script src="/assets/js/bootstrap.min.js" is:inline></script>
+	<!-- carousel js -->
+	<script src="/assets/js/owl.carousel.min.js" is:inline></script>
+	<!-- counterup js -->
+	<script src="/assets/js/jquery.counterup.min.js" is:inline></script>
+	<!-- waypoints js -->
+	<script src="/assets/js/waypoints.min.js" is:inline></script>
+	<!-- wow js -->
+	<script src="/assets/js/wow.js" is:inline></script>
+	<!-- imagesloaded js -->
+	<script src="/assets/js/imagesloaded.pkgd.min.js" is:inline></script>
+	<!-- venobox js -->
+	<script src="venobox/venobox.js" is:inline></script>
+	<!--  animated-text js -->
+	<script src="/assets/js/animated-text.js" is:inline></script>
+	<!-- venobox min js -->
+	<script src="venobox/venobox.min.js" is:inline></script>
+	<!-- isotope js -->
+	<script src="/assets/js/isotope.pkgd.min.js" is:inline></script>
+	<!-- jquery meanmenu js -->
+	<script src="/assets/js/jquery.meanmenu.js" is:inline></script>
+	<!-- jquery scrollup js -->
+	<script src="/assets/js/jquery.scrollUp.js" is:inline></script>
+	<!-- theme js -->
+	<script src="/assets/js/theme.js" is:inline></script>
+	<!-- barfiller -->
+	<script src="/assets/js/jquery.barfiller.js" is:inline></script>
+
+</body>
+</html>

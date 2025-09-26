@@ -1,0 +1,637 @@
+
+
+---
+import Layout from '../layouts/Layout.astro';
+import Countdown from "../components/Countdown.svelte";
+import Navbar from "../components/Navbar.astro";
+import Navbarbottom from "../components/Navbar.svelte";
+
+import Speakers from "../components/Speakers.svelte";
+import Startups from "../components/Startups.svelte";
+
+---
+
+<Layout  title="LEAP | KERALA STARTUP MISSION">
+
+<Navbarbottom client:load></Navbarbottom>
+
+
+
+
+	<section class="hero_area style_two style_three d-flex align-items-center">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6">
+				<!-- hero content -->
+				<div class="hero_content">
+					<h4 class="uppercase">Empowering Kerala’s Senior Citizens through Entrepreneurship</h4>
+					<h1>New Innings</h1>
+					<p>
+						New Innings is a flagship initiative designed to ensure the financial stability of senior citizens in Kerala while channeling their lifelong professional expertise and experience into building innovative business ventures.
+					</p>
+						<!-- slider button -->
+					<div class="slider_button">
+						<div class="hero_btn style_two">
+							<a href="contact.html"><i class="far fa-thumbs-up"></i>Get Started <span></span></a>
+						</div>
+						<!-- <div class="hero_video_btn">
+							<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i class="bi bi-play-btn"></i></a>
+							<span>How It Works</span>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="hero-thumb">
+					<img src="assets/images/home_3/hero_thumb3.png" alt="">
+					<div class="hero_thumb_shape">
+						<img src="assets/images/home_3/hero3_dot_shape.png" alt="">
+					</div>
+					<!-- Hero Powerful Box -->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="hero_shape">
+		<img src="assets/images/home_3/box.png" alt="">
+	</div> -->
+</section>
+
+	
+
+<!--==================================================-->
+<!-- Start Consalt Brand area-->
+<!--==================================================-->
+<section class="brand_area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 ">
+				<h2 class="text-center text-xl">
+					Globally, history shows that many renowned entrepreneurs achieved remarkable success during the second phase of their careers. Inspired by this fact, the Government of Kerala has launched New Innings to transform retirement into an opportunity for growth, innovation, and leadership.
+				</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="about_area style_two pb-24">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-12">
+				<div class="about_thumb">
+					<img src="assets/images/home_two/about_2.png" alt="">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12">
+				<div class="section_title">
+					<h1>Why New Innings?</h1>
+					<p class="text-black">
+						In Kerala, thousands of highly experienced professionals retire every year. Their expertise, if left untapped, is a missed opportunity for the state’s growth. The New Innings program ensures that this vast pool of knowledge contributes to economic progress, while also empowering seniors with renewed purpose, financial stability, and social engagement.
+						<br><br>
+						This initiative bridges generations—allowing senior citizens to guide and inspire young entrepreneurs, while also enabling them to launch their own ventures.
+					</p>
+				</div>
+				
+					<div class="about_button style_upper">
+						<div class="about_btn style_two">
+							<a href="#">Apply Now &nbsp;&nbsp;<i class="flaticon flaticon-right-arrow"></i></a>
+						</div>
+					</div>
+					
+			</div>
+		</div>
+	</div>
+	<div class="about_shape two">
+		<img src="assets/images/home_two/about_shape2.png" alt="">
+	</div>
+</section>
+
+
+
+
+<section class="team_area hidden">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section_title text-center">
+					<h1>Global Inspirations</h1>
+					<p>Many successful entrepreneurs began their journeys later in life:</p>
+				</div>
+			</div>		
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-4 flex flex-col h-auto">
+				<div class="single-team_item style_three">
+					<div class="team_thumb">
+						<img src="assets/images/home_one/team2.jpg" alt="">
+						<div class="team-social-icon">
+							<ul>
+								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="team-content">
+						<h3><a href="#">Charles S. Brown</a></h3>
+						<span>Lead Developer</span>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-lg-3 col-md-4 flex flex-col h-auto">
+				<div class="single-team_item style_three">
+					<div class="team_thumb">
+						<img src="assets/images/inner-img/team5.png" alt="">
+						<div class="team-social-icon">
+							<ul>
+								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="team-content">
+						<h3><a href="#">Kiron Mala Kotkoti</a></h3>
+						<span>UI-UX Design</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 flex flex-col h-auto">
+				<div class="single-team_item style_three">
+					<div class="team_thumb">
+						<img src="assets/images/inner-img/team6.png" alt="">
+						<div class="team-social-icon">
+							<ul>
+								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="team-content">
+						<h3><a href="#">Charles S. Brown</a></h3>
+						<span>Lead Developer</span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="contact_form mt-6 mb-24 hidden">
+	<div class="container">
+		<div class="row form_bg align-items-center">
+			<div class="col-lg-6">
+				<div class="form_content">
+					<h4 class="md:text-xl ">These examples prove that it’s never too late to start a successful venture.</h4>
+				</div>
+
+			</div>
+			<div class="col-lg-6">
+				<div class="consalt_btn home_five">
+					<a href="contact.html">Start A Project <span></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="team_area style_two style_five boxed container items-center mx-auto">
+	<div class="container">
+		<div class="row px-5">
+			<div class="col-lg-4">
+				<div class="section_title style_two home_five home_six">
+					<h1>Global Inspirations</h1>
+					<p class=" text-gray-200">
+						Many successful entrepreneurs began their journeys later in life:
+					</p>
+
+				</div>	
+				
+				<h5 class="team_des">These examples prove that it’s never too late to start a successful venture.</h5>
+				<div class="consalt_btn home_five animate_buton mt-8">
+					<a href="team.html">More Team Members <span style="top: 32.25px; left: -10px;"></span></a>
+				</div>
+			</div>
+			<div class="col-lg-8">
+				<div class="row">
+					<div class="team_list owl-carousel">
+						<div class="col-lg-12">
+							<div class="single-team_item style_two style_three style_four style_five">
+								<div class="team_thumb">
+									<img src="assets/images/home-six/theam_img1.png" alt="">
+									
+								</div>
+								<div class="team-content">
+									<h3><a href="#">Charles S. Brown</a></h3>
+									<span>Lead Developer</span>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="single-team_item style_two style_three style_four style_five">
+								<div class="team_thumb">
+									<img src="assets/images/home-six/team_img2.png" alt="">
+									
+								</div>
+								<div class="team-content">
+									<h3><a href="#">Sonalika Mony</a></h3>
+									<span>Lead Developer</span>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="single-team_item style_two style_three style_four style_five">
+								<div class="team_thumb">
+									<img src="assets/images/home-six/team_img3.png" alt="">
+									
+								</div>
+								<div class="team-content">
+									<h3><a href="#">Abu Taleb</a></h3>
+									<span>Lead Developer</span>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="team_shpe_arrow bounce-animate">
+		<img src="assets/images/home-six/arrow.png" alt="">
+	</div>
+</section>
+
+
+
+
+
+
+
+<!--==================================================-->
+<!-- End Consalt brand Area-->
+<!--==================================================-->
+
+
+
+<!--==================================================-->
+<!-- Start Consalt Feature Area-->
+<!--==================================================-->
+
+<section class="feature_area boxed py-5 mt-24">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<!-- section title -->
+				<div class="section_title text-center mb-5">
+					<h1>Contributions of Retired Professionals</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			
+			<div class="col-lg-4 col-md-6 mb-4">
+				<div class="feature_item d-flex flex-column h-100 p-4 ">
+					<div class="feature_icon mb-3">
+						<img src="assets/images/home_one/feature_icon01.png" alt="">
+					</div>
+					<div class="feature_content flex-grow-1">
+						<h3>Space Research</h3>
+						<p>Former ISRO and VSSC scientists can mentor startups in small satellites, drones, and geospatial data analytics.</p>
+					</div>
+					<!-- <div class="feature_number mt-3">
+						<h6 class="feature_no">01</h6>
+					</div> -->
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 mb-4">
+				<div class="feature_item d-flex flex-column h-100 p-4 ">
+					<div class="feature_icon mb-3">
+						<img src="assets/images/home_one/feature_icon02.png" alt="">
+					</div>
+					<div class="feature_content flex-grow-1">
+						<h3>Electronics, AI & Robotics</h3>
+						<p>Specialists from DRDO, CDAC, and similar institutions can guide innovations in automation, smart devices, and eldercare robotics.</p>
+					</div>
+					<!-- <div class="feature_number mt-3">
+						<h6 class="feature_no">02</h6>
+					</div> -->
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 mb-4">
+				<div class="feature_item d-flex flex-column h-100 p-4 ">
+					<div class="feature_icon mb-3">
+						<img src="assets/images/home_one/feature_icon03.png" alt="">
+					</div>
+					<div class="feature_content flex-grow-1">
+						<h3>Energy Sector</h3>
+						<p>Former KSEB engineers can support ventures in solar power, smart grids, and energy efficiency.</p>
+					</div>
+					<!-- <div class="feature_number mt-3">
+						<h6 class="feature_no">03</h6>
+					</div> -->
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 mb-4">
+				<div class="feature_item d-flex flex-column h-100 p-4 ">
+					<div class="feature_icon mb-3">
+						<img src="assets/images/home_one/feature_icon04.png" alt="">
+					</div>
+					<div class="feature_content flex-grow-1">
+						<h3>Electric Vehicles & Batteries</h3>
+						<p>Retired experts can share knowledge in battery management and charging infrastructure.</p>
+					</div>
+					<!-- <div class="feature_number mt-3">
+						<h6 class="feature_no">04</h6>
+					</div> -->
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 mb-4">
+				<div class="feature_item d-flex flex-column h-100 p-4 ">
+					<div class="feature_icon mb-3">
+						<img src="assets/images/home_one/feature_icon01.png" alt="">
+					</div>
+					<div class="feature_content flex-grow-1">
+						<h3>Banking & Finance</h3>
+						<p>Former bankers can advise fintech startups, micro-lending, and rural credit solutions.</p>
+					</div>
+					<!-- <div class="feature_number mt-3">
+						<h6 class="feature_no">05</h6>
+					</div> -->
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 mb-4">
+				<div class="feature_item d-flex flex-column h-100 p-4 ">
+					<div class="feature_icon mb-3">
+						<img src="assets/images/home_one/feature_icon01.png" alt="">
+					</div>
+					<div class="feature_content flex-grow-1">
+						<h3>Education & Research</h3>
+						<p>Retired teachers and researchers can nurture edtech innovations, e-learning platforms, and skill-assessment tools.</p>
+					</div>
+					<!-- <div class="feature_number mt-3">
+						<h6 class="feature_no">06</h6>
+					</div> -->
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="feature_shape bounce-animate-3">
+		<img src="assets/images/home_one/arrow.png" alt="">
+	</div>
+</section>
+
+<!--==================================================-->
+<!-- End Consalt Feature Area-->
+<!--==================================================-->
+
+<!--==================================================-->
+<!-- Start Consalt Service Area-->
+<!--==================================================-->
+
+<!--==================================================-->
+<!-- End Consalt Service Area-->
+<!--==================================================-->
+
+
+
+<!--==================================================-->
+<!-- Start Consalt Marquee Area-->
+<!--==================================================-->
+
+<!--==================================================-->
+<!-- End Consalt  Marquee Area-->
+<!--==================================================-->
+
+<section class="blog_area style_two style_four boxed box_two">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section_title home_style_four text-center">
+					<h1>Program Goals</h1>
+				</div>
+			</div>		
+		</div>
+		<div class="row">
+			<div class="blog_list owl-carousel">
+				
+				<div class="col-lg-12">
+					<div class="single-blog-box">
+						<div class="single-blog-thumb">
+							<img src="assets/images/home_two/blog_1.png" alt="">							
+						</div>
+						<div class="blog-content">
+							<div class="blog-title">
+								<h3>Connect retired professionals with startups.</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-12">
+					<div class="single-blog-box">
+						<div class="single-blog-thumb">
+							<img src="assets/images/home_two/blog_2.png" alt="">							
+						</div>
+						<div class="blog-content">
+							<div class="blog-title">
+								<h3>Encourage entrepreneurship among senior citizens.</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-12">
+					<div class="single-blog-box">
+						<div class="single-blog-thumb">
+							<img src="assets/images/home_two/blog_3.png" alt="">							
+						</div>
+						<div class="blog-content">
+							<div class="blog-title">
+								<h3>Strengthen startups through advisory, consulting, and board-level guidance.</h3>
+							</div>
+						</div>
+					</div>
+				</div>		
+
+				<div class="col-lg-12">
+					<div class="single-blog-box">
+						<div class="single-blog-thumb">
+							<img src="assets/images/home_two/blog_1.png" alt="">							
+						</div>
+						<div class="blog-content">
+							<div class="blog-title">
+								<h3>Create new employment opportunities for retirees.</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-12">
+					<div class="single-blog-box">
+						<div class="single-blog-thumb">
+							<img src="assets/images/home_two/blog_2.png" alt="">							
+						</div>
+						<div class="blog-content">
+							<div class="blog-title">
+								<h3>Ensure financial security and social recognition for senior citizens.</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-12">
+					<div class="single-blog-box">
+						<div class="single-blog-thumb">
+							<img src="assets/images/home_two/blog_3.png" alt="">							
+						</div>
+						<div class="blog-content">
+							<div class="blog-title">
+								<h3>Facilitate cross-generational knowledge sharing.</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-12">
+					<div class="single-blog-box">
+						<div class="single-blog-thumb">
+							<img src="assets/images/home_two/blog_1.png" alt="">							
+						</div>
+						<div class="blog-content">
+							<div class="blog-title">
+								<h3>Inspire innovation by leveraging decades of professional experience.</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>								
+		</div>
+	</div>
+</section>
+
+<!--==================================================-->
+<!-- Start Consalt About Area-->
+<!--==================================================-->
+
+<!--==================================================-->
+<!-- End Consalt About Area-->
+<!--==================================================-->
+
+
+
+<!--==================================================-->
+<!-- Start Consalt Counter Area-->
+<!--==================================================-->
+
+
+<section class="about_area style_four boxed">
+	<div class="about_container">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-7 col-md-12">
+					<div class="about_left">
+						<div class="section_title home_style_four">
+							<h1 class="pb-6" style="color: #ffff;">Impact</h1>
+						</div>
+						<div class="about_content style_two">
+							<div class="about_list">
+								<ul>
+									<li><i class="fas fa-check"></i>
+1000+ Retired Professionals engaged as active mentors and advisors.
+
+									</li>
+									<li><i class="fas fa-check"></i>
+100+ Startups led by or collaborating with senior citizens.
+									</li>
+									<li><i class="fas fa-check"></i>Stronger startup ecosystem powered by credibility, expertise, and innovation.
+</li>
+									<li><i class="fas fa-check"></i>
+									Significant contribution to Kerala’s economic growth and social development.
+</li>
+
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-lg-5 col-md-12">
+					<div class="">
+						<img src="assets/images/home-four/about_thumb.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+
+<section class="brand_area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 ">
+				<h2 class="text-center text-xl">
+If successful, New Innings will serve as a model for other states in India. Over time, the program will be expanded to include more senior citizens, attract more startups, and establish Kerala as a hub where experience and innovation merge to create sustainable growth.
+				</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--==================================================-->
+<!-- Start Consalt Counter Area-->
+<!--==================================================-->
+
+
+
+
+<!--==================================================-->
+<!-- Start Consalt Footer Area -->
+<!--==================================================-->
+<section class="w-full mt-10 border-t-2 border-gray-200">
+		<div class="text-sm px-5 py-3 text-center">
+			Copyright © 2025 | <a href="https://startupmission.kerala.gov.in/" target="_blank" class="hover:text-blue-500">Kerala Startup Mission</a>
+		</div>
+	</section>
+<!--==================================================-->
+<!-- End Consalt Footer Area-->
+<!--==================================================-->
+
+
+<!--==================================================-->
+<!-- Start Consalt Scroll Up-->
+<!--==================================================-->
+<div class="prgoress_indicator active-progress">
+	<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 212.78;"></path>
+	</svg>
+ </div>
+<!--==================================================-->
+<!-- End Consalt Scroll Up-->
+<!--==================================================-->
+
+</Layout>

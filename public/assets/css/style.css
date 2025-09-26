@@ -419,10 +419,10 @@ section.brand_area.style_two {
 /*===========================================
 <-- Sater Css Section Title  -->
 ==============================================*/
-.section_title.text-center {
+.section_titlee.text-center {
     margin-bottom: 53px;
 }
-.section_title h4 {
+.section_titlee h4 {
     font-size: 16px;
     color: #10779a;
     font-weight: 500;
@@ -430,35 +430,35 @@ section.brand_area.style_two {
     position: relative;
     z-index: 1;
 }
-.section_title h1 {
+.section_titlee h1 {
     font-size: 42px;
     line-height: 42px;
     color: #10779a;
     font-weight: 600;
 }
-.section_title.style_two h1 {
+.section_titlee.style_two h1 {
     color: #ffff;
 }
-.section_title.style_two h4 {
+.section_titlee.style_two h4 {
     color: #e0f1df;
 }
-.section_title.text-center p {
+.section_titlee.text-center p {
     width: 49%;
     text-align: center;
     margin: 23px auto 0;
 }
-.section_title p {
+.section_titlee p {
     width: 89%;
     margin: 28px 0 34px;
 }
-.section_title.left {
+.section_titlee.left {
     margin-bottom: 50px;
 }
-.section_title.style_three {
+.section_titlee.style_three {
     position: relative;
     z-index: 1;
 }
-.section_title.style_three:before {
+.section_titlee.style_three:before {
     position: absolute;
     left: 0;
     bottom: 33%;
@@ -469,7 +469,7 @@ section.brand_area.style_two {
     z-index: -1;
     background-repeat: no-repeat;
 }
-.section_title.style_four:before {
+.section_titlee.style_four:before {
     left: 0;
     bottom: -32%;
     height: 15px;
@@ -478,10 +478,10 @@ section.brand_area.style_two {
     margin: auto;
     text-align: center;
 }
-.section_title.style_three p {
+.section_titlee.style_three p {
     margin: 48px 0 20px;
 }
-.section_title.style_four {
+.section_titlee.style_four {
     margin-bottom: 82px;
 }
 /* consalt right */
@@ -1240,7 +1240,7 @@ section.pricing-area {
     border-radius: 0 0 20px 20px;
     margin-top: -20px;
 }
-section.pricing-area .section_title p {
+section.pricing-area .section_titlee p {
     margin: 28px 0 40px;
     color: #fff9;
 }
@@ -1511,7 +1511,6 @@ section.team_area {
 .single-team_item {
     transform: translateY(0px);
     transition: .5s;
-    margin-bottom: 30px;
 }
 .single-team_item:hover {
     transform: translateY(30px);
@@ -2178,7 +2177,7 @@ section.about_area.style_two {
 .about_play.style_two .text-inner svg {
     width: 66%;
 }
-.about_area.style_two .section_title p {
+.about_area.style_two .section_titlee p {
     width: 88%;
     margin: 23px 0 24px;
 }
@@ -2572,7 +2571,7 @@ section.testimonial_area.style_two {
     border-radius: 0;
     padding: 120px 0 117px;
 }
-.testimonial_area.style_two .section_title p {
+.testimonial_area.style_two .section_titlee p {
     margin: 26px 0 22px;
     color: #a3b7b7;
     width: 77%;
@@ -2795,7 +2794,7 @@ section.pricing-area.style_two {
     background: #ffff;
     z-index: 1;
 }
-.pricing-area.style_two .section_title p {
+.pricing-area.style_two .section_titlee p {
     margin: 28px 0 20px;
     color: #6b7a7a;
     width: 92%;
@@ -3007,7 +3006,7 @@ section.blog_area.style_two {
     background-position: center center;
     padding: 85px 0 90px;
 }
-section.blog_area.style_two .section_title.style_four:before {
+section.blog_area.style_two .section_titlee.style_four:before {
     bottom: -27%;
 }
 .blog_area.style_two  .single-blog-box {
@@ -3721,10 +3720,10 @@ section.why_choose_us {
     background-position: center center;
     padding: 120px 0 120px;
 }
-.why_choose_us .section_title.style_three:before {
+.why_choose_us .section_titlee.style_three:before {
     bottom: 55%;
 }
-.why_choose_us .section_title.style_three p {
+.why_choose_us .section_titlee.style_three p {
     margin: 37px 0 20px;
     width: 88%;
 }
@@ -4226,13 +4225,13 @@ section.contact_area {
     position: relative;
     top: 100px;
 }
-.contact-form-box.style_two .section_title.style_four {
+.contact-form-box.style_two .section_titlee.style_four {
     margin-bottom: 62px;
 }
-.contact-form-box.style_two .section_title.style_four:before {
+.contact-form-box.style_two .section_titlee.style_four:before {
     width: 37%;
 }
-.contact-form-box.style_two .section_title h1 {
+.contact-form-box.style_two .section_titlee h1 {
     font-size: 34px;
 }
 .contact-form-box.style_two .form-box input {
@@ -4719,13 +4718,13 @@ section.feature_area.style_two {
 }
 
 /* section title home style four */
-.section_title.home_style_four h4 {
+.section_titlee.home_style_four h4 {
     margin-bottom: 20px;
     font-size: 16px;
     color: #10779a;
     font-weight: 500;
 }
-.section_title.home_style_four h1 {
+.section_titlee.home_style_four h1 {
     font-size: 42px;
     color: #10779a;
     font-weight: 600;
@@ -4850,7 +4849,7 @@ section.service_area.styel_four {
     background: #FFFFFF;
     padding: 84px 0 95px;
 }
-.styel_four .section_title.text-center {
+.styel_four .section_titlee.text-center {
     margin-bottom: 75px;
 }
 .service_single_item.style_four {
@@ -5752,12 +5751,12 @@ p.about_qute::before {
 }
 
 /* section title home five  */
-.section_title.home_five h4 {
+.section_titlee.home_five h4 {
     position: relative;
     z-index: 1;
     display: inline-block;
 }
-.section_title.home_five h4:before {
+.section_titlee.home_five h4:before {
     position: absolute;
     content: "";
     right: -59px;
@@ -5782,7 +5781,7 @@ section.service_area.styel_five {
     background-repeat: no-repeat;
     margin-top: -23px;
 }
-section.service_area.styel_five .section_title.text-center {
+section.service_area.styel_five .section_titlee.text-center {
     margin-bottom: 153px;
 }
 .service_single_item.style_five {
@@ -6113,7 +6112,7 @@ section.testimonial_area.style_five {
     color: #6b7a7a;
     font-weight: 400;
 }
-section.testimonial_area.style_five .section_title p {
+section.testimonial_area.style_five .section_titlee p {
     width: 85%;
 }
 .consalt_btn.home_five {
@@ -6437,10 +6436,10 @@ section.about_area.style_sixs {
     background: #E9EBED;
     padding: 120px 0 120px;
 }
-.section_title.home_six h4 {
+.section_titlee.home_six h4 {
     padding: 0 10px;
 }
-.section_title.home_six h4:before {
+.section_titlee.home_six h4:before {
     position: absolute;
     content: "";
     right: inherit;
@@ -6755,7 +6754,6 @@ a.team_join {
 .single-team_item.style_five {
     border: none;
     text-align: center;
-    padding: 10px 10px 10px;
     border-radius: 5px;
     transition: .5s;
     background: #10779a;
@@ -6807,7 +6805,7 @@ section.team_area.style_five .consalt_btn a:before {
 section.team_area.style_five a:hover:before {
     width: 148px;
 }
-section.team_area.style_five.section_title p {
+section.team_area.style_five.section_titlee p {
     width: 76%;
     margin: 28px 0 45px;
     color: #ffffffc4;
@@ -7707,7 +7705,7 @@ section.contact_area.inner_section {
     padding: 64px 60px 70px;
     top: 0;
 }
-.inner_section .section_title p {
+.inner_section .section_titlee p {
     margin: 28px 0 40px;
 }
 .inner_section .contact_shape2 {

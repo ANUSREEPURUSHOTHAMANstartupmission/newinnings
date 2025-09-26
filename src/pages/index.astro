@@ -32,7 +32,7 @@ import Startups from "../components/Startups.svelte";
 						<!-- slider button -->
 					<div class="slider_button">
 						<div class="hero_btn style_two">
-							<a href="contact.html"><i class="far fa-thumbs-up"></i>Get Started <span></span></a>
+							<a href="#about" class=" page-scroll"><i class="far fa-thumbs-up"></i>Get Started <span></span></a>
 						</div>
 						<!-- <div class="hero_video_btn">
 							<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i class="bi bi-play-btn"></i></a>
@@ -43,10 +43,10 @@ import Startups from "../components/Startups.svelte";
 			</div>
 			<div class="col-lg-6">
 				<div class="hero-thumb">
-					<img src="assets/images/home_3/hero_thumb3.png" alt="">
-					<div class="hero_thumb_shape">
+					<img src="/img/bg1.png" alt="">
+					<!-- <div class="hero_thumb_shape">
 						<img src="assets/images/home_3/hero3_dot_shape.png" alt="">
-					</div>
+					</div> -->
 					<!-- Hero Powerful Box -->
 					
 				</div>
@@ -77,16 +77,16 @@ import Startups from "../components/Startups.svelte";
 
 
 
-<section class="about_area style_two pb-24">
+<section class="about_area style_two pb-24" id="about">
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-6 col-md-12">
 				<div class="about_thumb">
-					<img src="assets/images/home_two/about_2.png" alt="">
+					<img src="/img/bg2.png" alt="">
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-12">
-				<div class="section_title">
+			<div class="col-lg-6 col-md-12 md:pt-0 pt-4">
+				<div class="section_titlee">
 					<h1>Why New Innings?</h1>
 					<p class="text-black">
 						In Kerala, thousands of highly experienced professionals retire every year. Their expertise, if left untapped, is a missed opportunity for the state’s growth. The New Innings program ensures that this vast pool of knowledge contributes to economic progress, while also empowering seniors with renewed purpose, financial stability, and social engagement.
@@ -112,155 +112,66 @@ import Startups from "../components/Startups.svelte";
 
 
 
-<section class="team_area hidden">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="section_title text-center">
-					<h1>Global Inspirations</h1>
-					<p>Many successful entrepreneurs began their journeys later in life:</p>
-				</div>
-			</div>		
-		</div>
-		<div class="grid lg:grid-cols-3 gap-4 md:grid-cols-2 grid-cols-1">
-			<div class="">
-				<div class="single-team_item style_three">
-					<div class="team_thumb">
-						<img src="assets/images/home_one/team2.jpg" alt="">
-						<div class="team-social-icon">
-							<ul>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="team-content">
-						<h3><a href="#">Charles S. Brown</a></h3>
-						<span>Lead Developer</span>
-					</div>
-				</div>
-			</div>
-		
-			<div class="">
-				<div class="single-team_item style_three">
-					<div class="team_thumb">
-						<img src="assets/images/inner-img/team5.png" alt="">
-						<div class="team-social-icon">
-							<ul>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="team-content">
-						<h3><a href="#">Kiron Mala Kotkoti</a></h3>
-						<span>UI-UX Design</span>
-					</div>
-				</div>
-			</div>
-			<div class="">
-				<div class="single-team_item style_three">
-					<div class="team_thumb">
-						<img src="assets/images/inner-img/team6.png" alt="">
-						<div class="team-social-icon">
-							<ul>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="team-content">
-						<h3><a href="#">Charles S. Brown</a></h3>
-						<span>Lead Developer</span>
-					</div>
-				</div>
-			</div>
 
-		</div>
-	</div>
-</section>
 
-<section class="contact_form mt-6 mb-24 hidden">
-	<div class="container">
-		<div class="row form_bg align-items-center">
-			<div class="col-lg-6">
-				<div class="form_content">
-					<h4 class="md:text-xl ">These examples prove that it’s never too late to start a successful venture.</h4>
-				</div>
 
-			</div>
-			<div class="col-lg-6">
-				<div class="consalt_btn home_five">
-					<a href="contact.html">Start A Project <span></span></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="team_area style_two style_five boxed container items-center mx-auto">
+<section class="team_area style_two style_five boxed container items-center mx-auto hidden"  id="Global_Inspirations">
 	<div class="container">
 		<div class="row px-5">
-			<div class="col-lg-4">
-				<div class="section_title style_two home_five home_six">
+			<div class="col-lg-4 my-auto">
+				<div class="section_titlee style_two home_five home_six my-auto">
 					<h1>Global Inspirations</h1>
 					<p class=" text-gray-200">
 						Many successful entrepreneurs began their journeys later in life:
 					</p>
 
 				</div>	
-				
-				<h5 class="team_des">These examples prove that it’s never too late to start a successful venture.</h5>
-				<div class="consalt_btn home_five animate_buton mt-8">
-					<a href="team.html">More Team Members <span style="top: 32.25px; left: -10px;"></span></a>
+				<div class="">
+					<h5 class=" text-white md:text-xl text-lg">These examples prove that it’s never too late to start a successful venture.</h5>
+					<div class="consalt_btn home_five animate_buton mt-8">
+						<a href="#">Apply Now<span style="top: 32.25px; left: -10px;"></span></a>
+					</div>
 				</div>
+				
 			</div>
 			<div class="col-lg-8">
-				<div class="row">
-					<div class="team_list owl-carousel">
-						<div class="col-lg-12">
-							<div class="single-team_item style_two style_three style_four style_five">
-								<div class="team_thumb">
-									<img src="assets/images/home-six/theam_img1.png" alt="">
-									
-								</div>
-								<div class="team-content">
-									<h3><a href="#">Charles S. Brown</a></h3>
-									<span>Lead Developer</span>
-									
-								</div>
+				<div class="grid lg:grid-cols-3 gap-4 md:grid-cols-2 grid-cols-1">
+					<div class="col-lg-12">
+						<div class="single-team_item style_two style_three style_four style_five">
+							<div class="team_thumb">
+								<img src="assets/images/home-six/theam_img1.png" alt="">
+								
+							</div>
+							<div class="team-content">
+								<h3><a href="#">Charles S. Brown</a></h3>
+								<span>Lead Developer</span>
+								
 							</div>
 						</div>
-						<div class="col-lg-12">
-							<div class="single-team_item style_two style_three style_four style_five">
-								<div class="team_thumb">
-									<img src="assets/images/home-six/team_img2.png" alt="">
-									
-								</div>
-								<div class="team-content">
-									<h3><a href="#">Sonalika Mony</a></h3>
-									<span>Lead Developer</span>
-									
-								</div>
+					</div>
+					<div class="col-lg-12">
+						<div class="single-team_item style_two style_three style_four style_five">
+							<div class="team_thumb">
+								<img src="assets/images/home-six/team_img2.png" alt="">
+								
+							</div>
+							<div class="team-content">
+								<h3><a href="#">Sonalika Mony</a></h3>
+								<span>Lead Developer</span>
+								
 							</div>
 						</div>
-						<div class="col-lg-12">
-							<div class="single-team_item style_two style_three style_four style_five">
-								<div class="team_thumb">
-									<img src="assets/images/home-six/team_img3.png" alt="">
-									
-								</div>
-								<div class="team-content">
-									<h3><a href="#">Abu Taleb</a></h3>
-									<span>Lead Developer</span>
-									
-								</div>
+					</div>
+					<div class="col-lg-12">
+						<div class="single-team_item style_two style_three style_four style_five">
+							<div class="team_thumb">
+								<img src="assets/images/home-six/team_img3.png" alt="">
+								
+							</div>
+							<div class="team-content">
+								<h3><a href="#">Abu Taleb</a></h3>
+								<span>Lead Developer</span>
+								
 							</div>
 						</div>
 					</div>
@@ -268,10 +179,11 @@ import Startups from "../components/Startups.svelte";
 			</div>
 
 		</div>
+		
 	</div>
-	<div class="team_shpe_arrow bounce-animate">
+	<!-- <div class="team_shpe_arrow bounce-animate">
 		<img src="assets/images/home-six/arrow.png" alt="">
-	</div>
+	</div> -->
 </section>
 
 
@@ -290,12 +202,12 @@ import Startups from "../components/Startups.svelte";
 <!-- Start Consalt Feature Area-->
 <!--==================================================-->
 
-<section class="feature_area boxed py-5 ">
+<section class="feature_area boxed py-5 " id="Contributions">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
 				<!-- section title -->
-				<div class="section_title text-center mb-5">
+				<div class="section_titlee text-center mb-5">
 					<h1>Contributions of Retired Professionals</h1>
 				</div>
 			</div>
@@ -393,6 +305,9 @@ import Startups from "../components/Startups.svelte";
 			</div>
 
 		</div>
+		<div>
+			* Not limited to the above sectors.
+		</div>
 	</div>
 	<div class="feature_shape bounce-animate-3">
 		<img src="assets/images/home_one/arrow.png" alt="">
@@ -421,11 +336,11 @@ import Startups from "../components/Startups.svelte";
 <!-- End Consalt  Marquee Area-->
 <!--==================================================-->
 
-<section class="blog_area style_two style_four boxed box_two bg-white ">
+<section class="blog_area style_two style_four boxed box_two bg-white " id="Program_Goals">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="section_title home_style_four text-center">
+				<div class="section_titlee home_style_four text-center">
 					<h1>Program Goals</h1>
 				</div>
 			</div>		
@@ -530,6 +445,20 @@ import Startups from "../components/Startups.svelte";
 						</div>
 					</div>
 				</div>
+
+				<div class="col-lg-12">
+					<div class="single-blog-box">
+						
+						<div class="px-6 py-4  rounded-t-xl bg-white border border-b-0">
+							<div class="blog-title">
+								<h3 class="text-xl text-center">Invest in startups <br><br></h3>
+							</div>
+						</div>
+						<div class="">
+							<img src="assets/images/home_two/blog_1.png" class="rounded-b-xl"  alt="">							
+						</div>
+					</div>
+				</div>
 				
 			</div>								
 		</div>
@@ -558,7 +487,7 @@ import Startups from "../components/Startups.svelte";
 				
 				<div class="col-lg-7 col-md-12">
 					<div class="about_left">
-						<div class="section_title home_style_four">
+						<div class="section_titlee home_style_four">
 							<h1 class="pb-6" style="color: #ffff;">Impact</h1>
 						</div>
 						<div class="about_content style_two">
@@ -650,3 +579,36 @@ If successful, New Innings will serve as a model for other states in India. Over
 <!--==================================================-->
 
 </Layout>
+
+
+<script is:inline>
+  document.querySelectorAll("a.page-scroll").forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      const href = anchor.getAttribute("href");
+      const targetId = href.replace(/^\/?#/, "");
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        e.preventDefault();
+
+        targetElement.scrollIntoView({ behavior: "smooth" });
+
+        history.replaceState(null, null, window.location.pathname);
+      }
+    });
+  });
+
+  window.addEventListener("DOMContentLoaded", () => {
+    const hash = window.location.hash;
+    if (hash) {
+      const targetId = hash.replace("#", "");
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        setTimeout(() => {
+          targetElement.scrollIntoView({ behavior: "smooth" });
+          history.replaceState(null, null, window.location.pathname);
+        }, 100);
+      }
+    }
+  });
+</script>

@@ -87,45 +87,9 @@
       <div style="font-family: Museo-Sans, sans-serif;" class="flex my-auto">
         <a href="/" class="md:flex cursor-pointer hidden px-4 py-3 md:py-1 uppercase text-sm hover:text-green-900">Home</a>
         <a href="/#about" class="md:flex page-scroll cursor-pointer hidden px-4 py-3 md:py-1 uppercase text-sm hover:text-green-900">About</a>
-        <a href="/#Sessions" class="md:flex page-scroll hidden cursor-pointer px-4 py-3 md:py-1 uppercase text-sm hover:text-green-900">Sessions</a>
-        <a href="/#Speakers" class="md:flex page-scroll cursor-pointer hidden px-4 py-3 md:py-1 uppercase text-sm hover:text-green-900">Speakers</a>
-
-        <!-- Desktop: Cohort 1 dropdown -->
-        <div class="relative md:flex hidden"
-             on:mouseenter={openDD}
-             on:mouseleave={closeDD}
-        >
-          <button
-            class="px-4 py-3 md:py-1 uppercase text-sm hover:text-green-900 flex items-center gap-1 focus:outline-none"
-            aria-haspopup="true"
-            aria-expanded={dropdownOpen}
-          >
-            Cohort
-            <svg class="w-4 h-4 transition-transform"
-                 style={`transform: rotate(${dropdownOpen ? 180 : 0}deg)`} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 011.08 1.04l-4.25 4.25a.75.75 0 01-1.06 0L5.21 8.27a.75.75 0 01.02-1.06z"/>
-            </svg>
-          </button>
-
-          {#if dropdownOpen}
-            <ul
-              class="absolute   top-10 mt-2 w-56 rounded-md border border-gray-100 bg-white shadow-lg focus:outline-none"
-              role="menu"
-              tabindex="-1"
-            >
-              {#each cohortMenu as item}
-                <li>
-                  <a
-                    href={item.href}
-                    class="block px-4 py-2 text-sm hover:bg-gray-100"
-                    role="menuitem"
-                    on:click={() => dropdownOpen = false}
-                  >{item.label}</a>
-                </li>
-              {/each}
-            </ul>
-          {/if}
-        </div>
+        <!-- <a href="/#Global_Inspirations" class="md:flex page-scroll hidden cursor-pointer px-4 py-3 md:py-1 uppercase text-sm hover:text-green-900">Inspirations</a> -->
+        <a href="/#Contributions" class="md:flex page-scroll cursor-pointer hidden px-4 py-3 md:py-1 uppercase text-sm hover:text-green-900">Contributions</a>
+        <a href="/#Program_Goals" class="md:flex page-scroll cursor-pointer hidden px-4 py-3 md:py-1 uppercase text-sm hover:text-green-900">Goals</a>
       </div>
 
       <!-- Mobile hamburger -->
@@ -181,42 +145,18 @@
         <li on:click={() => menu_open = !menu_open} class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 md:hidden flex">
           <a href="/#about" class="page-scroll cursor-pointer font-bold">About</a>
         </li>
+        <!-- <li on:click={() => menu_open = !menu_open} class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 md:hidden flex">
+          <a href="/#Global_Inspirations" class="page-scroll cursor-pointer font-bold">Inspirations</a>
+        </li> -->
         <li on:click={() => menu_open = !menu_open} class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 md:hidden flex">
-          <a href="/#Sessions" class="page-scroll cursor-pointer font-bold">Sessions</a>
-        </li>
-        <li on:click={() => menu_open = !menu_open} class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 md:hidden flex">
-          <a href="/#Speakers" class="page-scroll cursor-pointer font-bold">Speakers</a>
+          <a href="/#Contributions" class="page-scroll cursor-pointer font-bold">Contributions</a>
         </li>
 
-        <!-- Mobile: Cohort 1 dropdown -->
-        <li class="px-5 py-2 md:hidden flex flex-col">
-          <button
-            class="w-full text-left font-bold flex items-center justify-between"
-            on:click={toggleDDsm}
-            aria-haspopup="true"
-            aria-expanded={dropdownOpensm}
-          >
-            Cohort 1
-            <svg class="w-4 h-4 transition-transform"
-                 style={`transform: rotate(${dropdownOpensm ? 180 : 0}deg)`} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 011.08 1.04l-4.25 4.25a.75.75 0 01-1.06 0L5.21 8.27a.75.75 0 01.02-1.06z"/>
-            </svg>
-          </button>
 
-          {#if dropdownOpensm}
-            <ul class="mt-2 ml-2 border-l border-gray-200">
-              {#each cohortMenu as item}
-                <li class="pl-3">
-                  <a
-                    href={item.href}
-                    class="block py-2 text-sm hover:underline"
-                    on:click={() => { dropdownOpensm = false; menu_open = false; }}
-                  >{item.label}</a>
-                </li>
-              {/each}
-            </ul>
-          {/if}
+        <li on:click={() => menu_open = !menu_open} class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 md:hidden flex">
+          <a href="/#Program_Goals" class="page-scroll cursor-pointer font-bold">Goals</a>
         </li>
+
       </ul>
     </nav>
   </div>
